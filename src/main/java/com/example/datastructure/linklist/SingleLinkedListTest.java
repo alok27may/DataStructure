@@ -34,7 +34,7 @@ public class SingleLinkedListTest {
 
     @Test
     public void shouldReturnFirstElement() {
-        int data = RandomUtils.nextInt();
+        int data = 2;
         SingleLinkedList sLL = new SingleLinkedList(data);
         Assert.assertEquals(data, sLL.getFirstElement());
     }
@@ -173,8 +173,10 @@ public class SingleLinkedListTest {
         int i = RandomUtils.nextInt(10);
         System.out.println(i);
 
-//        SingleLinkedList.Node node = firstLL.uniqueList();
-//        System.out.println(node);
+    }
+
+    @Test
+    public void detectCyclicInLinkedList() {
 
     }
 
@@ -194,6 +196,55 @@ public class SingleLinkedListTest {
 //            curr = next;
 //        }
 //        return new_head.next;
+//    }
+
+//    public DoublyLinkedListNode sortedInsert(DoublyLinkedListNode head, int data) {
+//        DoublyLinkedListNode currNode = head;
+//        while(currNode != null) {
+//            DoublyLinkedListNode newNode = new DoublyLinkedListNode(data);
+//            if(data < currNode.data) {
+//                newNode.next = currNode;
+//                newNode.prev = currNode.prev;
+//                currNode.prev = newNode;
+//                break;
+//            } else if (currNode.next == null) {
+//                newNode.prev = currNode;
+//                currNode.next = newNode;
+//                break;
+//            } else if (data <= currNode.next.data) {
+//                newNode.next = currNode.next;
+//                newNode.prev = currNode;
+//                currNode.next = newNode;
+//                break;
+//            }
+//
+//            currNode = currNode.next;
+//        }
+//        while(currNode.prev != null) {
+//            currNode = currNode.prev;
+//        }
+//
+//        return currNode;
+//    }
+
+//    static DoublyLinkedListNode reverse(DoublyLinkedListNode head) {
+//        DoublyLinkedListNode currNode = head;
+//        while(currNode.next != null) {
+//            currNode = currNode.next;
+//        }
+//
+//        DoublyLinkedListNode newHead = currNode;
+//        DoublyLinkedListNode temp;
+//        while(currNode != null) {
+//            temp = currNode;
+//            temp.next = currNode.prev;
+//            temp.prev = currNode.next;
+//            currNode = temp;
+//            currNode = currNode.next;
+//        }
+//        newHead.prev = null;
+//        return newHead;
+//
 //    }
 
 

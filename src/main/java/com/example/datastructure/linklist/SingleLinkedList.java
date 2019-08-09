@@ -202,6 +202,66 @@ public class SingleLinkedList {
         return singleLinkedList.head;
     }
 
+    public boolean hasCycle(SingleLinkedList list) {
+        if(head == null) {
+            return false;
+        }
+
+
+        Node firstNode = list.head;
+        Node secondNode = list.head;
+
+        while(firstNode != null && secondNode != null && firstNode.next != null && null != secondNode.next && null != secondNode.next.next) {
+            firstNode = firstNode.next;
+            secondNode = secondNode.next.next;
+            if(firstNode == secondNode) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    static int findMergeNode(SingleLinkedList list1, SingleLinkedList list2) {
+        int firstLength = 1, secondLength = 1;
+        Node firstCurrNode = list1.head, secondCurrNode = list2.head;
+        while(firstCurrNode.next != null) {
+            firstLength++;
+            firstCurrNode = firstCurrNode.next;
+        }
+
+        while(secondCurrNode.next != null) {
+            secondLength++;
+            secondCurrNode = secondCurrNode.next;
+        }
+
+
+        int diff = 0;
+        if(firstLength > secondLength) {
+            firstCurrNode = list1.head;
+            secondCurrNode = list2.head;
+            diff = firstLength - secondLength;
+        } else {
+            firstCurrNode = list2.head;
+            secondCurrNode = list1.head;
+            diff = secondLength - firstLength;
+        }
+
+        for(int i = 0; i < diff; i++) {
+            firstCurrNode = firstCurrNode.next;
+        }
+
+        while(firstCurrNode != null && secondCurrNode != null) {
+            if(firstCurrNode.data == secondCurrNode.data) {
+                return firstCurrNode.data;
+            }
+            firstCurrNode = firstCurrNode.next;
+            secondCurrNode = secondCurrNode.next;
+        }
+
+        return 0;
+    }
+
     class Node {
 
         private int data;
