@@ -13,6 +13,10 @@ public class SingleLinkedList {
     }
 
     public void add(final int data) {
+        if (head == null) {
+            head = new Node(data);
+            return;
+        }
         final Node insertSLL = new Node(data);
         Node currentElement = head;
         while (currentElement.getNext() != null) {
