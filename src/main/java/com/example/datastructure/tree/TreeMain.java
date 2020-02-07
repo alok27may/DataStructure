@@ -21,7 +21,6 @@ public class TreeMain {
         root.setRight(right);
     }
 
-
     public static void main(String[] args) {
 //        traverseAllOrder();
 
@@ -29,10 +28,14 @@ public class TreeMain {
 //        System.out.println(treeOperation.heightOfTree(root));
 //        System.out.println(treeOperation.getHeight(root));
 
-        treeOperation.levelOrderTraverse(root);
+//        treeOperation.levelOrderTraverse(root);
 
+//        treeOperation.topTreeView(root);
+//        System.out.println();
+//        treeOperation.top_view(root);
 
-
+        final Tree tree = treeOperation.insertNode(root, 9);
+        treeOperation.preOrder(tree);
 
     }
 

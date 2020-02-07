@@ -1,9 +1,9 @@
 package com.example.datastructure.tree;
 
 public class Tree {
-    private int data;
-    private Tree left;
-    private Tree right;
+    public int data;
+    public Tree left;
+    public Tree right;
 
     public Tree() {
     }

@@ -2,26 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c262209-29f2-4728-bb09-c56f3eaa4c56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/TreeMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/TreeOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/markdown-exported-files.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datastructure/linklist/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/datastructure/linklist/SingleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/TreeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/TreeMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/TreeOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/TreeOperation.java" afterDir="false" />
     </list>
+    <list id="1c5200c2-36a0-4469-af5f-b3870fb0a1c0" name="ignore" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -125,11 +130,12 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1c262209-29f2-4728-bb09-c56f3eaa4c56" name="Default Changelist" comment="" />
+      <changelist id="1c5200c2-36a0-4469-af5f-b3870fb0a1c0" name="ignore" comment="" />
       <created>1580730609971</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580730609971</updated>
-      <workItem from="1580730612986" duration="6995000" />
+      <workItem from="1580730612986" duration="11083000" />
     </task>
     <servers />
   </component>
@@ -146,5 +152,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/TreeMain.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
