@@ -135,18 +135,4 @@ public class TreeOperation {
         }
     }
 
-    public static Tree insertNode(Tree root,int data) {
-        if (root == null) {
-            root = new Tree(data);
-        } else {
-            if (data < root.data) {
-                root.setLeft(insertNode(root.left, data));
-            } else if (data > root.data) {
-                root.setRight(insertNode(root.right, data));
-            }
-        }
-        return root;
-
-    }
-
 }

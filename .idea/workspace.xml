@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c262209-29f2-4728-bb09-c56f3eaa4c56" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/BinaryTreeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/BinaryTreeOperation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/Tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/TreeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/TreeMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/TreeOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/TreeOperation.java" afterDir="false" />
     </list>
@@ -66,9 +67,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.BinaryTreeMain">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinaryTreeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.datastructure.tree.BinaryTreeMain" />
+      <module name="data-structure" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.datastructure.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,6 +135,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryTreeMain" />
         <item itemvalue="Application.TreeMain" />
       </list>
     </recent_temporary>
@@ -135,7 +151,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580730609971</updated>
-      <workItem from="1580730612986" duration="11083000" />
+      <workItem from="1580730612986" duration="17926000" />
     </task>
     <servers />
   </component>
@@ -157,9 +173,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/TreeMain.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/BinaryTreeMain.java</url>
           <line>37</line>
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/BinaryTreeOperation.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/BinaryTreeOperation.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

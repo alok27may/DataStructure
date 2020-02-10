@@ -7,6 +7,10 @@ public class TreeMain {
 
     static {
         treeOperation = new TreeOperation();
+        buildTree();
+    }
+
+    private static void buildTree() {
         root = new Tree(1);
 
         final Tree left = new Tree(2);
@@ -22,20 +26,13 @@ public class TreeMain {
     }
 
     public static void main(String[] args) {
-//        traverseAllOrder();
+        traverseAllOrder();
 
-//        System.out.println("\nHeight of Tree");
-//        System.out.println(treeOperation.heightOfTree(root));
-//        System.out.println(treeOperation.getHeight(root));
+        System.out.println("\nHeight of Tree :: " + treeOperation.heightOfTree(root));
+        System.out.println("\nHeight of Tree :: " + treeOperation.getHeight(root));
 
-//        treeOperation.levelOrderTraverse(root);
-
-//        treeOperation.topTreeView(root);
-//        System.out.println();
-//        treeOperation.top_view(root);
-
-        final Tree tree = treeOperation.insertNode(root, 9);
-        treeOperation.preOrder(tree);
+        treeOperation.topTreeView(root);
+        System.out.println();
 
     }
 
@@ -46,6 +43,9 @@ public class TreeMain {
         treeOperation.inOrder(root);
         System.out.println("\nPost Order Data");
         treeOperation.postOrder(root);
+
+        System.out.println("\nLevle Order Data");
+        treeOperation.levelOrderTraverse(root);
 
         System.out.println("\nPre Order Data Using Non Recursive");
         treeOperation.preOrderNonRecursive(root);
