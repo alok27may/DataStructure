@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c262209-29f2-4728-bb09-c56f3eaa4c56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/datastructure/heap/Heap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/datastructure/heap/MaxHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/datastructure/heap/MaxHeapOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/datastructure/heap/MinHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/datastructure/heap/MinHeapOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designpattern/src/main/java/com/learning/ds/behavioral/strategy/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designpattern/src/main/java/com/learning/ds/behavioral/strategy/FlyBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designpattern/src/main/java/com/learning/ds/behavioral/strategy/FlyNoWay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designpattern/src/main/java/com/learning/ds/behavioral/strategy/FlyRocketPowered.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designpattern/src/main/java/com/learning/ds/behavioral/strategy/FlyWithWing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designpattern/src/main/java/com/learning/ds/behavioral/strategy/MallardDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designpattern/src/main/java/com/learning/ds/behavioral/strategy/MiniDuckSimulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designpattern/src/main/java/com/learning/ds/behavioral/strategy/ModelDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designpattern/src/main/java/com/learning/ds/behavioral/strategy/MuteQuack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designpattern/src/main/java/com/learning/ds/behavioral/strategy/Quack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designpattern/src/main/java/com/learning/ds/behavioral/strategy/QuackBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designpattern/src/main/java/com/learning/ds/behavioral/strategy/Squeak.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designpattern/src/main/java/com/learning/ds/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/../designpattern/src/main/java/com/learning/ds/creational/singleton/Singleton.java" afterDir="false" />
     </list>
     <list id="1c5200c2-36a0-4469-af5f-b3870fb0a1c0" name="ignore" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,12 +41,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../designpattern" />
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
@@ -67,7 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MinHeapOperation">
+  <component name="RunManager" selected="Application.MiniDuckSimulator">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -116,13 +125,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.datastructure.tree.TreeMain" />
+    <configuration name="MiniDuckSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learning.ds.behavioral.strategy.MiniDuckSimulator" />
+      <module name="design-pattern" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learning.ds.behavioral.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrieMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.datastructure.trie.TrieMain" />
       <module name="data-structure" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.datastructure.tree.*" />
+          <option name="PATTERN" value="com.example.datastructure.trie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,10 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MiniDuckSimulator" />
+        <item itemvalue="Application.TrieMain" />
         <item itemvalue="Application.MinHeapOperation" />
         <item itemvalue="Application.MaxHeapOperation" />
         <item itemvalue="Application.BinaryTreeMain" />
-        <item itemvalue="Application.TreeMain" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +207,11 @@
       <updated>1580730609971</updated>
       <workItem from="1580730612986" duration="17926000" />
       <workItem from="1581315598114" duration="1445000" />
-      <workItem from="1582547274597" duration="6243000" />
+      <workItem from="1582547274597" duration="9492000" />
+      <workItem from="1583124878400" duration="405000" />
+      <workItem from="1583670566162" duration="1386000" />
+      <workItem from="1583737310594" duration="5116000" />
+      <workItem from="1584095931203" duration="982000" />
     </task>
     <servers />
   </component>
