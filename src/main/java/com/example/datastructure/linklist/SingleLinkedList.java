@@ -7,6 +7,9 @@ public class SingleLinkedList {
 
     private Node head;
 
+    public Node getHead() {
+        return head;
+    }
 
     public SingleLinkedList(final int data) {
         head = new Node(data);
@@ -140,15 +143,35 @@ public class SingleLinkedList {
     }
 
     public Node reverseList() {
-        Node reversedNode = new Node(head.data);
         Node currentNode = head;
-        while(currentNode.next != null) {
-            Node tempNode = new Node(currentNode.next.data);
-            tempNode.next = reversedNode;
-            reversedNode = tempNode;
-            currentNode = currentNode.next;
+        Node next = null;
+        Node prev = null;
+        while(currentNode != null) {
+            next = currentNode.next;
+            currentNode.next = prev;
+            prev = currentNode;
+            currentNode = next;
         }
-        return reversedNode;
+        head = prev;
+        return prev;
+    }
+
+public Node reverseListByKthNumber(Node node, int position) {
+        Node currentNode = node;
+        Node next = null;
+        Node prev = null;
+        int count = 0;
+        while(count < position && currentNode != null) {
+            next = currentNode.next;
+            currentNode.next = prev;
+            prev = currentNode;
+            currentNode = next;
+            count++;
+        }
+        if (next != null) {
+            node.next = reverseListByKthNumber(next, position);
+        }
+        return prev;
     }
 
     public boolean isPalindrome() {

@@ -106,14 +106,34 @@ public class SingleLinkedListTest {
     @Test
     public void reverseList() {
         SingleLinkedList firstLL = new SingleLinkedList(1);
-        firstLL.add(83);
-        firstLL.add(44);
-        firstLL.add(39);
-        firstLL.add(95);
-        firstLL.add(100);
+        firstLL.add(2);
+        firstLL.add(3);
+        firstLL.add(4);
+        firstLL.add(5);
+        firstLL.add(6);
+        firstLL.add(7);
+        firstLL.add(8);
 
+        System.out.println(firstLL);
         SingleLinkedList.Node node = firstLL.reverseList();
         System.out.println(node);
+
+    }
+
+    @Test
+    public void reverseListByKthNumber() {
+        SingleLinkedList firstLL = new SingleLinkedList(1);
+        firstLL.add(2);
+        firstLL.add(3);
+        firstLL.add(4);
+        firstLL.add(5);
+        firstLL.add(6);
+        firstLL.add(7);
+        firstLL.add(8);
+
+        System.out.println(firstLL);
+        SingleLinkedList.Node node2 = firstLL.reverseListByKthNumber(firstLL.getHead(), 3);
+        System.out.println(node2);
 
 
     }

@@ -2,27 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c262209-29f2-4728-bb09-c56f3eaa4c56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../designpattern/src/main/java/com/learning/ds/behavioral/strategy/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../designpattern/src/main/java/com/learning/ds/behavioral/strategy/FlyBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../designpattern/src/main/java/com/learning/ds/behavioral/strategy/FlyNoWay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../designpattern/src/main/java/com/learning/ds/behavioral/strategy/FlyRocketPowered.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../designpattern/src/main/java/com/learning/ds/behavioral/strategy/FlyWithWing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../designpattern/src/main/java/com/learning/ds/behavioral/strategy/MallardDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../designpattern/src/main/java/com/learning/ds/behavioral/strategy/MiniDuckSimulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../designpattern/src/main/java/com/learning/ds/behavioral/strategy/ModelDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../designpattern/src/main/java/com/learning/ds/behavioral/strategy/MuteQuack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../designpattern/src/main/java/com/learning/ds/behavioral/strategy/Quack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../designpattern/src/main/java/com/learning/ds/behavioral/strategy/QuackBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../designpattern/src/main/java/com/learning/ds/behavioral/strategy/Squeak.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../designpattern/src/main/java/com/learning/ds/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/../designpattern/src/main/java/com/learning/ds/creational/singleton/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/datastructure/heap/second/MaxHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/datastructure/heap/second/MaxHeapOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/datastructure/linklist/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react/my-first-react-app/my-app/my-app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react/my-first-react-app/my-app/src/AppRoute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react/my-first-react-app/my-app/src/LoginPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react/my-first-react-app/my-app/src/MainPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react/my-first-react-app/my-app/src/MiniDrawer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react/my-first-react-app/my-app/src/PrimarySearchAppBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react/my-first-react-app/my-app/src/Sidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react/my-first-react-app/my-app/src/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datastructure/linklist/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/datastructure/linklist/SingleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datastructure/linklist/SingleLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/datastructure/linklist/SingleLinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react/my-first-react-app/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../react/my-first-react-app/my-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react/my-first-react-app/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../react/my-first-react-app/my-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react/my-first-react-app/my-app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../react/my-first-react-app/my-app/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react/my-first-react-app/my-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react/my-first-react-app/my-app/src/index.js" afterDir="false" />
     </list>
-    <list id="1c5200c2-36a0-4469-af5f-b3870fb0a1c0" name="ignore" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list id="1c5200c2-36a0-4469-af5f-b3870fb0a1c0" name="ignore" comment="">
+      <change afterPath="$PROJECT_DIR$/../designpattern/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designpattern/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../designpattern/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designpattern/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../designpattern/.idea/misc.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="module" />
+    </option>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -41,13 +55,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../designpattern" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
@@ -56,54 +74,68 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="compactDirectories" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../designpattern/src/main/java/com/learning/ds/creational/abstractfactory" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.29885057" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="IntroduceConstantDialog.RECENTS_KEY">
+      <recent name="com.learning.ds.behavioral.chainofresponsibility.Dollar50Dispenser" />
+      <recent name="com.learning.ds.behavioral.chainofresponsibility.Dollar20Dispenser" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../designpattern/src/main/java/com/learning/ds/creational/abstractfactory" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.learning.ds.behavioral.state.example2" />
+      <recent name="com.learning.ds.behavioral.state" />
+      <recent name="com.learning.ds.behavioral.chainofresponsibility" />
+      <recent name="com.learning.ds.structural.flyweight" />
+      <recent name="com.learning.ds.creational.builder.example2" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.learning.ds.structural.facade" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.MiniDuckSimulator">
+  <component name="RunManager" selected="Application.MyLinkedList">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryTreeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.datastructure.tree.BinaryTreeMain" />
-      <module name="data-structure" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.datastructure.tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MaxHeapOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.datastructure.heap.MaxHeapOperation" />
-      <module name="data-structure" />
+      <option name="MAIN_CLASS_NAME" value="com.example.datastructure.heap.second.MaxHeapOperation" />
+      <module name="DataStructure" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.datastructure.heap.*" />
+          <option name="PATTERN" value="com.example.datastructure.heap.second.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,27 +143,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinHeapOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.datastructure.heap.MinHeapOperation" />
-      <module name="data-structure" />
+    <configuration name="MyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.datastructure.linklist.MyLinkedList" />
+      <module name="DataStructure" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.datastructure.heap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MiniDuckSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learning.ds.behavioral.strategy.MiniDuckSimulator" />
-      <module name="design-pattern" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learning.ds.behavioral.strategy.*" />
+          <option name="PATTERN" value="com.example.datastructure.linklist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,7 +159,7 @@
     </configuration>
     <configuration name="TrieMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.datastructure.trie.TrieMain" />
-      <module name="data-structure" />
+      <module name="DataStructure" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -159,9 +177,71 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SingleLinkedListTest.reverseList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.datastructure.linklist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.datastructure.linklist" />
+      <option name="MAIN_CLASS_NAME" value="com.example.datastructure.linklist.SingleLinkedListTest" />
+      <option name="METHOD_NAME" value="reverseList" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingleLinkedListTest.reverseListByKthNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.datastructure.linklist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.datastructure.linklist" />
+      <option name="MAIN_CLASS_NAME" value="com.example.datastructure.linklist.SingleLinkedListTest" />
+      <option name="METHOD_NAME" value="reverseListByKthNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.docker.app.AppApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DockerComposeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="docker-compose" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.docker.learning.dockercompose.DockerComposeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KafkaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kafka.java.KafkaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MongoDbExampleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mongo-db-example" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mongo.example.mongodbexample.MongoDbExampleApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -186,11 +266,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MiniDuckSimulator" />
-        <item itemvalue="Application.TrieMain" />
-        <item itemvalue="Application.MinHeapOperation" />
+        <item itemvalue="Application.MyLinkedList" />
         <item itemvalue="Application.MaxHeapOperation" />
-        <item itemvalue="Application.BinaryTreeMain" />
+        <item itemvalue="JUnit.SingleLinkedListTest.reverseListByKthNumber" />
+        <item itemvalue="JUnit.SingleLinkedListTest.reverseList" />
+        <item itemvalue="Application.TrieMain" />
       </list>
     </recent_temporary>
   </component>
@@ -211,25 +291,122 @@
       <workItem from="1583124878400" duration="405000" />
       <workItem from="1583670566162" duration="1386000" />
       <workItem from="1583737310594" duration="5116000" />
-      <workItem from="1584095931203" duration="982000" />
+      <workItem from="1584095931203" duration="43840000" />
+      <workItem from="1585889455753" duration="294000" />
+      <workItem from="1585902401802" duration="2291000" />
+      <workItem from="1586148710631" duration="453000" />
+      <workItem from="1586326858416" duration="5657000" />
+      <workItem from="1587447678924" duration="1284000" />
+      <workItem from="1587538487507" duration="599000" />
+      <workItem from="1587544289251" duration="38000" />
+      <workItem from="1587812909368" duration="6773000" />
+      <workItem from="1587966201759" duration="7315000" />
+      <workItem from="1591341781296" duration="4959000" />
+      <workItem from="1591591491972" duration="688000" />
+      <workItem from="1591771304596" duration="283000" />
+      <workItem from="1592554574669" duration="1116000" />
+      <workItem from="1592814261249" duration="5297000" />
+      <workItem from="1593408496924" duration="1710000" />
+      <workItem from="1593414871537" duration="3701000" />
+      <workItem from="1593781733879" duration="739000" />
+      <workItem from="1594012297758" duration="627000" />
+      <workItem from="1594203186944" duration="5753000" />
+      <workItem from="1594892417775" duration="23209000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="653" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1594210884943">
+      <screen x="0" y="23" width="1680" height="960" />
+    </state>
+    <state x="653" y="226" key="#com.intellij.ide.util.MemberChooser/0.23.1680.960@0.23.1680.960" timestamp="1594210884943" />
+    <state x="559" y="199" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1594892857467">
+      <screen x="0" y="23" width="1680" height="960" />
+    </state>
+    <state x="559" y="199" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.1680.960@0.23.1680.960" timestamp="1594892857467" />
+    <state x="591" y="322" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1593415345502">
+      <screen x="0" y="23" width="1680" height="960" />
+    </state>
+    <state x="591" y="322" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.23.1680.960@0.23.1680.960" timestamp="1593415345502" />
+    <state x="100" y="123" width="1480" height="760" key="DiffContextDialog" timestamp="1595226910732">
+      <screen x="0" y="23" width="1680" height="960" />
+    </state>
+    <state x="100" y="123" width="1480" height="760" key="DiffContextDialog/0.23.1680.960@0.23.1680.960" timestamp="1595226910732" />
+    <state width="1638" height="346" key="GridCell.Tab.0.bottom" timestamp="1595226884153">
+      <screen x="0" y="23" width="1680" height="960" />
+    </state>
+    <state width="1638" height="346" key="GridCell.Tab.0.bottom/0.23.1680.960@0.23.1680.960" timestamp="1595226884153" />
+    <state width="1638" height="346" key="GridCell.Tab.0.center" timestamp="1595226884152">
+      <screen x="0" y="23" width="1680" height="960" />
+    </state>
+    <state width="1638" height="346" key="GridCell.Tab.0.center/0.23.1680.960@0.23.1680.960" timestamp="1595226884152" />
+    <state width="1638" height="346" key="GridCell.Tab.0.left" timestamp="1595226884152">
+      <screen x="0" y="23" width="1680" height="960" />
+    </state>
+    <state width="1638" height="346" key="GridCell.Tab.0.left/0.23.1680.960@0.23.1680.960" timestamp="1595226884152" />
+    <state width="1638" height="346" key="GridCell.Tab.0.right" timestamp="1595226884153">
+      <screen x="0" y="23" width="1680" height="960" />
+    </state>
+    <state width="1638" height="346" key="GridCell.Tab.0.right/0.23.1680.960@0.23.1680.960" timestamp="1595226884153" />
+    <state width="1638" height="244" key="GridCell.Tab.1.bottom" timestamp="1594220009108">
+      <screen x="0" y="23" width="1680" height="960" />
+    </state>
+    <state width="1638" height="244" key="GridCell.Tab.1.bottom/0.23.1680.960@0.23.1680.960" timestamp="1594220009108" />
+    <state width="1638" height="244" key="GridCell.Tab.1.center" timestamp="1594220009106">
+      <screen x="0" y="23" width="1680" height="960" />
+    </state>
+    <state width="1638" height="244" key="GridCell.Tab.1.center/0.23.1680.960@0.23.1680.960" timestamp="1594220009106" />
+    <state width="1638" height="244" key="GridCell.Tab.1.left" timestamp="1594220009106">
+      <screen x="0" y="23" width="1680" height="960" />
+    </state>
+    <state width="1638" height="244" key="GridCell.Tab.1.left/0.23.1680.960@0.23.1680.960" timestamp="1594220009106" />
+    <state width="1638" height="244" key="GridCell.Tab.1.right" timestamp="1594220009107">
+      <screen x="0" y="23" width="1680" height="960" />
+    </state>
+    <state width="1638" height="244" key="GridCell.Tab.1.right/0.23.1680.960@0.23.1680.960" timestamp="1594220009107" />
+    <state x="378" y="165" key="Maven.ArtifactSearchDialog" timestamp="1593415219656">
+      <screen x="0" y="23" width="1680" height="960" />
+    </state>
+    <state x="378" y="165" key="Maven.ArtifactSearchDialog/0.23.1680.960@0.23.1680.960" timestamp="1593415219656" />
+    <state x="455" y="209" width="852" height="587" key="NewModule_or_Project.wizard" timestamp="1594912964366">
+      <screen x="0" y="23" width="1680" height="960" />
+    </state>
+    <state x="455" y="209" width="852" height="587" key="NewModule_or_Project.wizard/0.23.1680.960@0.23.1680.960" timestamp="1594912964366" />
+    <state x="643" y="428" key="ReplaceDuplicatesPrompt" timestamp="1595164527009">
+      <screen x="0" y="23" width="1680" height="960" />
+    </state>
+    <state x="643" y="428" key="ReplaceDuplicatesPrompt/0.23.1680.960@0.23.1680.960" timestamp="1595164527009" />
+    <state x="341" y="142" key="SettingsEditor" timestamp="1594892777377">
+      <screen x="0" y="23" width="1680" height="960" />
+    </state>
+    <state x="341" y="142" key="SettingsEditor/0.23.1680.960@0.23.1680.960" timestamp="1594892777377" />
+    <state x="578" y="248" width="535" height="510" key="extract.method.dialog" timestamp="1595169653589">
+      <screen x="0" y="23" width="1680" height="960" />
+    </state>
+    <state x="578" y="248" width="535" height="510" key="extract.method.dialog/0.23.1680.960@0.23.1680.960" timestamp="1595169653589" />
+    <state x="208" y="125" key="new project wizard" timestamp="1594892554907">
+      <screen x="0" y="23" width="1680" height="960" />
+    </state>
+    <state x="208" y="125" key="new project wizard/0.23.1680.960@0.23.1680.960" timestamp="1594892554907" />
+    <state x="505" y="234" width="670" height="676" key="search.everywhere.popup" timestamp="1594915623842">
+      <screen x="0" y="23" width="1680" height="960" />
+    </state>
+    <state x="505" y="234" width="670" height="676" key="search.everywhere.popup/0.23.1680.960@0.23.1680.960" timestamp="1594915623842" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -258,6 +435,41 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/example/datastructure/heap/MinHeapOperation.java</url>
           <line>16</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../designpattern/src/main/java/com/learning/ds/structural/decorator/StarBuzzCoffee.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../designpattern/src/main/java/com/learning/ds/structural/decorator/StarBuzzCoffee.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../designpattern/src/main/java/com/learning/ds/structural/decorator/Whip.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../designpattern/src/test/java/MainTest.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/datastructure/linklist/MyLinkedList.java</url>
+          <line>121</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/datastructure/linklist/MyLinkedList.java</url>
+          <line>120</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/datastructure/linklist/MyLinkedList.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
