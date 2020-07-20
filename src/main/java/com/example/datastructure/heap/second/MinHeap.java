@@ -1,11 +1,10 @@
-package com.example.datastructure.heap;
+package com.example.datastructure.heap.second;
 
-public class MaxHeap extends Heap {
-
+public class MinHeap extends Heap {
     private static final int FRONT = 1;
 
-    public MaxHeap(final int maxSize) {
-        super(maxSize, Integer.MAX_VALUE);
+    public MinHeap(final int maxSize) {
+        super(maxSize, Integer.MIN_VALUE);
     }
 
     public void insert(int element) {
@@ -16,40 +15,40 @@ public class MaxHeap extends Heap {
         this.heap[++size] = element;
 
         int current = size;
-        while (this.heap[current] > this.heap[getParent(current)]) {
+        while (this.heap[current] < this.heap[getParent(current)]) {
             final int parent = getParent(current);
             swap(current, parent);
             current = parent;
         }
     }
 
-    public void maxHeap() {
+    public void minHeap() {
         for (int pos = (size / 2); pos >= 1; pos--) {
-            maxHeapify(pos);
+            minHeapify(pos);
         }
     }
 
     public int remove() {
         int popped = this.heap[FRONT];
         this.heap[FRONT] = this.heap[size--];
-        maxHeapify(FRONT);
+        minHeapify(FRONT);
         return popped;
     }
 
-    private void maxHeapify(int pos) {
+    private void minHeapify(int pos) {
         if (!isLeaf(pos)) {
             int min = pos;
             final int leftChild = getLeftChild(pos);
             final int rightChild = getRightChild(pos);
-            if (this.heap[leftChild] > this.heap[rightChild]) {
+            if (this.heap[leftChild] < this.heap[rightChild]) {
                 min = leftChild;
             } else {
                 min = rightChild;
             }
 
-            if (this.heap[pos] < this.heap[min]) {
+            if (this.heap[pos] > this.heap[min]) {
                 swap(pos, min);
-                maxHeapify(min);
+                minHeapify(min);
             }
         }
     }

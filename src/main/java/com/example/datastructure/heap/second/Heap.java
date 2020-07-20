@@ -1,4 +1,4 @@
-package com.example.datastructure.heap;
+package com.example.datastructure.heap.second;
 
 public class Heap {
 
