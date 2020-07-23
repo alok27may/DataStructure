@@ -31,8 +31,11 @@ public class TreeMain {
         System.out.println("\nHeight of Tree :: " + treeOperation.heightOfTree(root));
         System.out.println("\nHeight of Tree :: " + treeOperation.getHeight(root));
 
+        System.out.print("Top View Using Stack : ");
         treeOperation.topTreeView(root);
         System.out.println();
+        System.out.print("Top View Using Recursion : ");
+        treeOperation.topViewByRecursion(root);
 
     }
 

@@ -2,7 +2,7 @@ package com.example.datastructure.tree;
 
 import java.util.Stack;
 
-public class BinaryTreeOperation {
+public class BinarySearchTree {
 
     boolean checkBST(Tree root) {
         Stack<Tree> stack = new Stack<>();
@@ -113,6 +113,24 @@ public class BinaryTreeOperation {
             }
         }
         return root;
+    }
+
+    public Tree bstToGst(Tree root) {
+        bstToGstSum(root, 0);
+        return root;
+    }
+
+    private int bstToGstSum(Tree root, int sum) {
+        if(root == null) {
+            return sum;
+        }
+
+        sum = root.data + bstToGstSum(root.right, sum);
+        root.data = sum;
+
+        sum = bstToGstSum(root.left, sum);
+        return sum;
+
     }
 
 }

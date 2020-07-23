@@ -35,4 +35,17 @@ public class Tree {
     public void setRight(final Tree right) {
         this.right = right;
     }
+
+    public void printTree() {
+        System.out.println(this);
+    }
+
+    @Override
+    public String toString() {
+        return "Tree{" +
+                "data=" + data +
+                ", left=" + left +
+                ", right=" + right +
+                '}';
+    }
 }

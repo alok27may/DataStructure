@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c262209-29f2-4728-bb09-c56f3eaa4c56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/datastructure/heap/linkedlist/MinHeapOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/datastructure/heap/linkedlist/Solution.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../react/my-first-react-app/my-app/my-app.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../react/my-first-react-app/my-app/src/AppRoute.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../react/my-first-react-app/my-app/src/LoginPage.js" afterDir="false" />
@@ -13,7 +11,10 @@
       <change afterPath="$PROJECT_DIR$/../react/my-first-react-app/my-app/src/Sidebar.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../react/my-first-react-app/my-app/src/layout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datastructure/heap/linkedlist/MinHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/datastructure/heap/linkedlist/MinHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/BinaryTreeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/BSTOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/BinaryTreeOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/TreeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/TreeMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../react/my-first-react-app/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../react/my-first-react-app/my-app/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../react/my-first-react-app/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../react/my-first-react-app/my-app/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../react/my-first-react-app/my-app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../react/my-first-react-app/my-app/public/index.html" afterDir="false" />
@@ -84,6 +85,8 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -118,20 +121,20 @@
       <recent name="$PROJECT_DIR$/../designpattern/src/main/java/com/learning/ds/creational/abstractfactory" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.BSTOperation">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxHeapOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.datastructure.heap.first.MaxHeapOperation" />
+    <configuration name="BSTOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.datastructure.tree.BSTOperation" />
       <module name="DataStructure" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.datastructure.heap.first.*" />
+          <option name="PATTERN" value="com.example.datastructure.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,8 +142,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinHeapOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.datastructure.heap.first.MinHeapOperation" />
+    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.datastructure.utility.MainTest" />
+      <module name="DataStructure" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.datastructure.utility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxHeapOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.datastructure.heap.first.MaxHeapOperation" />
       <module name="DataStructure" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -167,20 +184,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.datastructure.linklist.MyLinkedList" />
-      <module name="DataStructure" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.datastructure.linklist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SolutionLeetCodeMergeKSortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.datastructure.heap.linkedlist.SolutionLeetCodeMergeKSortedList" />
       <module name="DataStructure" />
@@ -188,6 +191,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.datastructure.heap.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.datastructure.tree.TreeMain" />
+      <module name="DataStructure" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.datastructure.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -256,11 +273,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BSTOperation" />
+        <item itemvalue="Application.TreeMain" />
+        <item itemvalue="Application.MainTest" />
         <item itemvalue="Application.SolutionLeetCodeMergeKSortedList" />
-        <item itemvalue="Application.MinHeapOperation (1)" />
         <item itemvalue="Application.MaxHeapOperation" />
-        <item itemvalue="Application.MinHeapOperation" />
-        <item itemvalue="Application.MyLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -301,7 +318,10 @@
       <workItem from="1593781733879" duration="739000" />
       <workItem from="1594012297758" duration="627000" />
       <workItem from="1594203186944" duration="5753000" />
-      <workItem from="1594892417775" duration="33621000" />
+      <workItem from="1594892417775" duration="33952000" />
+      <workItem from="1595305915956" duration="12000" />
+      <workItem from="1595308701757" duration="536000" />
+      <workItem from="1595326239530" duration="6442000" />
     </task>
     <servers />
   </component>
@@ -321,10 +341,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="653" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1595249388409">
+    <state x="653" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1595500804076">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
-    <state x="653" y="226" key="#com.intellij.ide.util.MemberChooser/0.23.1680.960@0.23.1680.960" timestamp="1595249388409" />
+    <state x="653" y="226" key="#com.intellij.ide.util.MemberChooser/0.23.1680.960@0.23.1680.960" timestamp="1595500804076" />
     <state x="559" y="199" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1594892857467">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
@@ -333,46 +353,46 @@
       <screen x="0" y="23" width="1680" height="960" />
     </state>
     <state x="591" y="322" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.23.1680.960@0.23.1680.960" timestamp="1593415345502" />
-    <state x="601" y="403" key="#xdebugger.evaluate" timestamp="1595231133431">
+    <state x="601" y="403" key="#xdebugger.evaluate" timestamp="1595501550921">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
-    <state x="601" y="403" key="#xdebugger.evaluate/0.23.1680.960@0.23.1680.960" timestamp="1595231133431" />
+    <state x="601" y="403" key="#xdebugger.evaluate/0.23.1680.960@0.23.1680.960" timestamp="1595501550921" />
     <state x="100" y="123" width="1480" height="760" key="DiffContextDialog" timestamp="1595226910732">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
     <state x="100" y="123" width="1480" height="760" key="DiffContextDialog/0.23.1680.960@0.23.1680.960" timestamp="1595226910732" />
-    <state width="1638" height="339" key="GridCell.Tab.0.bottom" timestamp="1595253706357">
+    <state width="1638" height="359" key="GridCell.Tab.0.bottom" timestamp="1595501569172">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
-    <state width="1638" height="339" key="GridCell.Tab.0.bottom/0.23.1680.960@0.23.1680.960" timestamp="1595253706357" />
-    <state width="1638" height="339" key="GridCell.Tab.0.center" timestamp="1595253706356">
+    <state width="1638" height="359" key="GridCell.Tab.0.bottom/0.23.1680.960@0.23.1680.960" timestamp="1595501569172" />
+    <state width="1638" height="359" key="GridCell.Tab.0.center" timestamp="1595501569171">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
-    <state width="1638" height="339" key="GridCell.Tab.0.center/0.23.1680.960@0.23.1680.960" timestamp="1595253706356" />
-    <state width="1638" height="339" key="GridCell.Tab.0.left" timestamp="1595253706356">
+    <state width="1638" height="359" key="GridCell.Tab.0.center/0.23.1680.960@0.23.1680.960" timestamp="1595501569171" />
+    <state width="1638" height="359" key="GridCell.Tab.0.left" timestamp="1595501569170">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
-    <state width="1638" height="339" key="GridCell.Tab.0.left/0.23.1680.960@0.23.1680.960" timestamp="1595253706356" />
-    <state width="1638" height="339" key="GridCell.Tab.0.right" timestamp="1595253706356">
+    <state width="1638" height="359" key="GridCell.Tab.0.left/0.23.1680.960@0.23.1680.960" timestamp="1595501569170" />
+    <state width="1638" height="359" key="GridCell.Tab.0.right" timestamp="1595501569171">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
-    <state width="1638" height="339" key="GridCell.Tab.0.right/0.23.1680.960@0.23.1680.960" timestamp="1595253706356" />
-    <state width="1638" height="359" key="GridCell.Tab.1.bottom" timestamp="1595253685109">
+    <state width="1638" height="359" key="GridCell.Tab.0.right/0.23.1680.960@0.23.1680.960" timestamp="1595501569171" />
+    <state width="1638" height="359" key="GridCell.Tab.1.bottom" timestamp="1595501569175">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
-    <state width="1638" height="359" key="GridCell.Tab.1.bottom/0.23.1680.960@0.23.1680.960" timestamp="1595253685109" />
-    <state width="1638" height="359" key="GridCell.Tab.1.center" timestamp="1595253685108">
+    <state width="1638" height="359" key="GridCell.Tab.1.bottom/0.23.1680.960@0.23.1680.960" timestamp="1595501569175" />
+    <state width="1638" height="359" key="GridCell.Tab.1.center" timestamp="1595501569174">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
-    <state width="1638" height="359" key="GridCell.Tab.1.center/0.23.1680.960@0.23.1680.960" timestamp="1595253685108" />
-    <state width="1638" height="359" key="GridCell.Tab.1.left" timestamp="1595253685107">
+    <state width="1638" height="359" key="GridCell.Tab.1.center/0.23.1680.960@0.23.1680.960" timestamp="1595501569174" />
+    <state width="1638" height="359" key="GridCell.Tab.1.left" timestamp="1595501569173">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
-    <state width="1638" height="359" key="GridCell.Tab.1.left/0.23.1680.960@0.23.1680.960" timestamp="1595253685107" />
-    <state width="1638" height="359" key="GridCell.Tab.1.right" timestamp="1595253685109">
+    <state width="1638" height="359" key="GridCell.Tab.1.left/0.23.1680.960@0.23.1680.960" timestamp="1595501569173" />
+    <state width="1638" height="359" key="GridCell.Tab.1.right" timestamp="1595501569175">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
-    <state width="1638" height="359" key="GridCell.Tab.1.right/0.23.1680.960@0.23.1680.960" timestamp="1595253685109" />
+    <state width="1638" height="359" key="GridCell.Tab.1.right/0.23.1680.960@0.23.1680.960" timestamp="1595501569175" />
     <state x="378" y="165" key="Maven.ArtifactSearchDialog" timestamp="1593415219656">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
@@ -406,17 +426,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/BinaryTreeMain.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/BSTOperation.java</url>
           <line>37</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/BinaryTreeOperation.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/BinarySearchTree.java</url>
           <line>44</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/BinaryTreeOperation.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/BinarySearchTree.java</url>
           <line>50</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
@@ -486,24 +506,19 @@
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/datastructure/heap/linkedlist/Solution.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/datastructure/heap/linkedlist/SolutionLeetCodeMergeKSortedList.java</url>
           <line>22</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/datastructure/heap/linkedlist/Solution.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="35" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/datastructure/heap/linkedlist/SolutionLeetCodeMergeKSortedList.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/datastructure/heap/linkedlist/Solution.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/datastructure/heap/linkedlist/Solution.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="38" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/BSTOperation.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
