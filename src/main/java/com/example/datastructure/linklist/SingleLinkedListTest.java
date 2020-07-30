@@ -220,6 +220,14 @@ public class SingleLinkedListTest {
     }
 
     @Test
+    public void findLengthOfCycle() {
+        SingleLinkedList firstLL = createLinkedListUptoNumber5();
+        firstLL.getHead().getNext().getNext().getNext().setNext(firstLL.getHead());
+        final int length = firstLL.lengthOfCycle(firstLL);
+        System.out.println(length);
+    }
+
+    @Test
     public void findMiddleNode() {
         SingleLinkedList firstLL = createLinkedListUptoNumber5();
         firstLL.add(6);

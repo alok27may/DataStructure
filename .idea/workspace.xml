@@ -119,7 +119,7 @@
       <recent name="$PROJECT_DIR$/../designpattern/src/main/java/com/learning/ds/creational/abstractfactory" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SingleLinkedListTest">
+  <component name="RunManager" selected="JUnit.SingleLinkedListTest.findLengthOfCycle">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -143,6 +143,23 @@
       <option name="PACKAGE_NAME" value="com.example.datastructure.linklist" />
       <option name="MAIN_CLASS_NAME" value="com.example.datastructure.linklist.SingleLinkedListTest" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingleLinkedListTest.findLengthOfCycle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.datastructure.linklist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.datastructure.linklist" />
+      <option name="MAIN_CLASS_NAME" value="com.example.datastructure.linklist.SingleLinkedListTest" />
+      <option name="METHOD_NAME" value="findLengthOfCycle" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -176,23 +193,6 @@
       <option name="PACKAGE_NAME" value="com.example.datastructure.linklist" />
       <option name="MAIN_CLASS_NAME" value="com.example.datastructure.linklist.SingleLinkedListTest" />
       <option name="METHOD_NAME" value="hasCycleInList" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SingleLinkedListTest.reverseListByKthNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.datastructure.linklist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.datastructure.linklist" />
-      <option name="MAIN_CLASS_NAME" value="com.example.datastructure.linklist.SingleLinkedListTest" />
-      <option name="METHOD_NAME" value="reverseListByKthNumber" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -271,11 +271,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SingleLinkedListTest.findLengthOfCycle" />
         <item itemvalue="JUnit.SingleLinkedListTest" />
         <item itemvalue="JUnit.SingleLinkedListTest.findMiddleNode" />
         <item itemvalue="JUnit.SingleLinkedListTest.hasCycleInList" />
         <item itemvalue="JUnit.SingleLinkedListTest.reverseListByKthNumberUptoExactKthElement" />
-        <item itemvalue="JUnit.SingleLinkedListTest.reverseListByKthNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -324,7 +324,7 @@
       <workItem from="1595825263743" duration="482000" />
       <workItem from="1595864430777" duration="4752000" />
       <workItem from="1595953153550" duration="247000" />
-      <workItem from="1596116915822" duration="4573000" />
+      <workItem from="1596116915822" duration="5238000" />
     </task>
     <servers />
   </component>
@@ -352,6 +352,10 @@
       <screen x="0" y="23" width="1680" height="960" />
     </state>
     <state x="559" y="199" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.1680.960@0.23.1680.960" timestamp="1594892857467" />
+    <state x="287" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1596125071654">
+      <screen x="0" y="23" width="1680" height="960" />
+    </state>
+    <state x="287" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1680.960@0.23.1680.960" timestamp="1596125071654" />
     <state x="591" y="322" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1593415345502">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
@@ -360,26 +364,26 @@
       <screen x="0" y="23" width="1680" height="960" />
     </state>
     <state x="601" y="403" key="#xdebugger.evaluate/0.23.1680.960@0.23.1680.960" timestamp="1595501550921" />
-    <state x="100" y="123" width="1480" height="760" key="DiffContextDialog" timestamp="1596117279069">
+    <state x="100" y="123" width="1480" height="760" key="DiffContextDialog" timestamp="1596125624494">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
-    <state x="100" y="123" width="1480" height="760" key="DiffContextDialog/0.23.1680.960@0.23.1680.960" timestamp="1596117279069" />
-    <state width="1638" height="239" key="GridCell.Tab.0.bottom" timestamp="1596124966533">
+    <state x="100" y="123" width="1480" height="760" key="DiffContextDialog/0.23.1680.960@0.23.1680.960" timestamp="1596125624494" />
+    <state width="1638" height="239" key="GridCell.Tab.0.bottom" timestamp="1596125629149">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
-    <state width="1638" height="239" key="GridCell.Tab.0.bottom/0.23.1680.960@0.23.1680.960" timestamp="1596124966533" />
-    <state width="1638" height="239" key="GridCell.Tab.0.center" timestamp="1596124966533">
+    <state width="1638" height="239" key="GridCell.Tab.0.bottom/0.23.1680.960@0.23.1680.960" timestamp="1596125629149" />
+    <state width="1638" height="239" key="GridCell.Tab.0.center" timestamp="1596125629148">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
-    <state width="1638" height="239" key="GridCell.Tab.0.center/0.23.1680.960@0.23.1680.960" timestamp="1596124966533" />
-    <state width="1638" height="239" key="GridCell.Tab.0.left" timestamp="1596124966532">
+    <state width="1638" height="239" key="GridCell.Tab.0.center/0.23.1680.960@0.23.1680.960" timestamp="1596125629148" />
+    <state width="1638" height="239" key="GridCell.Tab.0.left" timestamp="1596125629147">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
-    <state width="1638" height="239" key="GridCell.Tab.0.left/0.23.1680.960@0.23.1680.960" timestamp="1596124966532" />
-    <state width="1638" height="239" key="GridCell.Tab.0.right" timestamp="1596124966533">
+    <state width="1638" height="239" key="GridCell.Tab.0.left/0.23.1680.960@0.23.1680.960" timestamp="1596125629147" />
+    <state width="1638" height="239" key="GridCell.Tab.0.right" timestamp="1596125629148">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
-    <state width="1638" height="239" key="GridCell.Tab.0.right/0.23.1680.960@0.23.1680.960" timestamp="1596124966533" />
+    <state width="1638" height="239" key="GridCell.Tab.0.right/0.23.1680.960@0.23.1680.960" timestamp="1596125629148" />
     <state width="1638" height="359" key="GridCell.Tab.1.bottom" timestamp="1595949399673">
       <screen x="0" y="23" width="1680" height="960" />
     </state>

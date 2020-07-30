@@ -331,6 +331,33 @@ public Node reverseListByKthNumber(Node node, int position) {
         return null;
     }
 
+    public int lengthOfCycle(SingleLinkedList list) {
+        Node slow = list.head;
+        Node fast = list.head;
+        boolean result = false;
+
+        while(fast != null && null != fast.next) {
+            slow = slow.next;
+            fast = fast.next.next;
+            if(slow == fast) {
+                result = true;
+                break;
+            }
+        }
+
+        int count = 0;
+
+        if (result) {
+            fast = fast.next;
+            while (slow != fast) {
+                fast = fast.next;
+                count++;
+            }
+        }
+
+        return count;
+    }
+
     public Node middleNode(SingleLinkedList list) {
         Node slow = list.head;
         Node fast = list.head;
