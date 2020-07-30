@@ -106,11 +106,7 @@ public class SingleLinkedListTest {
 
     @Test
     public void reverseList() {
-        SingleLinkedList firstLL = new SingleLinkedList(1);
-        firstLL.add(2);
-        firstLL.add(3);
-        firstLL.add(4);
-        firstLL.add(5);
+        SingleLinkedList firstLL = createLinkedListUptoNumber5();
         firstLL.add(6);
         firstLL.add(7);
         firstLL.add(8);
@@ -123,11 +119,7 @@ public class SingleLinkedListTest {
 
     @Test
     public void reverseListByKthNumber() {
-        SingleLinkedList firstLL = new SingleLinkedList(1);
-        firstLL.add(2);
-        firstLL.add(3);
-        firstLL.add(4);
-        firstLL.add(5);
+        SingleLinkedList firstLL = createLinkedListUptoNumber5();
         firstLL.add(6);
         firstLL.add(7);
         firstLL.add(8);
@@ -139,11 +131,7 @@ public class SingleLinkedListTest {
 
     @Test
     public void reverseListByKthNumberUptoExactKthElement() {
-        SingleLinkedList firstLL = new SingleLinkedList(1);
-        firstLL.add(2);
-        firstLL.add(3);
-        firstLL.add(4);
-        firstLL.add(5);
+        SingleLinkedList firstLL = createLinkedListUptoNumber5();
         firstLL.add(6);
         firstLL.add(7);
         firstLL.add(8);
@@ -214,17 +202,38 @@ public class SingleLinkedListTest {
 
     @Test
     public void hasCycleInList() {
-        SingleLinkedList firstLL = new SingleLinkedList(1);
-        firstLL.add(2);
-        firstLL.add(3);
-        firstLL.add(4);
-        firstLL.add(5);
+        SingleLinkedList firstLL = createLinkedListUptoNumber5();
         firstLL.getHead().getNext().getNext().getNext().setNext(firstLL.getHead().getNext().getNext());
         final boolean output = firstLL.hasCycle(firstLL);
         System.out.println(output);
 
         final SingleLinkedList.Node node = firstLL.detectCycle(firstLL);
         System.out.println(node.getData());
+    }
+
+    @Test
+    public void detectCyclicNode() {
+        SingleLinkedList firstLL = createLinkedListUptoNumber5();
+        firstLL.getHead().getNext().getNext().getNext().setNext(firstLL.getHead().getNext().getNext());
+        final SingleLinkedList.Node node = firstLL.detectCycle(firstLL);
+        System.out.println(node.getData());
+    }
+
+    @Test
+    public void findMiddleNode() {
+        SingleLinkedList firstLL = createLinkedListUptoNumber5();
+        firstLL.add(6);
+        final SingleLinkedList.Node node = firstLL.middleNode(firstLL);
+        System.out.println(node.getData());
+    }
+
+    private SingleLinkedList createLinkedListUptoNumber5() {
+        SingleLinkedList firstLL = new SingleLinkedList(1);
+        firstLL.add(2);
+        firstLL.add(3);
+        firstLL.add(4);
+        firstLL.add(5);
+        return firstLL;
     }
 
 //    public ListNode deleteDuplicates(ListNode A) {

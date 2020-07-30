@@ -331,6 +331,18 @@ public Node reverseListByKthNumber(Node node, int position) {
         return null;
     }
 
+    public Node middleNode(SingleLinkedList list) {
+        Node slow = list.head;
+        Node fast = list.head;
+
+        while(fast != null && null != fast.next) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+
+        return slow;
+    }
+
     static int findMergeNode(SingleLinkedList list1, SingleLinkedList list2) {
         int firstLength = 1, secondLength = 1;
         Node firstCurrNode = list1.head, secondCurrNode = list2.head;
