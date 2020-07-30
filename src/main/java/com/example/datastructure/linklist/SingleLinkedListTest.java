@@ -93,6 +93,7 @@ public class SingleLinkedListTest {
         SingleLinkedList secondLL = new SingleLinkedList(9);
         secondLL.add(11);
         secondLL.add(12);
+        secondLL.add(39);
         secondLL.add(13);
         secondLL.add(14);
 
@@ -148,6 +149,8 @@ public class SingleLinkedListTest {
 
         boolean palindrome = firstLL.isPalindrome();
         System.out.println(palindrome);
+        final boolean isPalindromeByRunner = firstLL.isPalindromeRunnerApproach();
+        System.out.println(isPalindromeByRunner);
 
     }
 

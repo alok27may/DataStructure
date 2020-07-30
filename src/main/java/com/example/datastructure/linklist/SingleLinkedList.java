@@ -2,6 +2,7 @@ package com.example.datastructure.linklist;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
 public class SingleLinkedList {
 
@@ -156,6 +157,17 @@ public class SingleLinkedList {
         return prev;
     }
 
+    public Node reverseAndClone(Node head) {
+        Node reverseHead = null;
+        while(head != null) {
+            Node newNode = new Node(head.data);
+            newNode.next = reverseHead;
+            reverseHead = newNode;
+            head = head.next;
+        }
+        return reverseHead;
+    }
+
 public Node reverseListByKthNumber(Node node, int position) {
         Node currentNode = node;
         Node next = null;
@@ -175,17 +187,41 @@ public Node reverseListByKthNumber(Node node, int position) {
     }
 
     public boolean isPalindrome() {
-        Node B = reverseList();
-        Node currentANode = head;
-        Node currentBNode = B;
-        while (currentANode.next != null) {
-            if (currentBNode.getData() != currentANode.getData()) {
+        Node currentReverse = reverseAndClone(head);
+        Node current = head;
+        while (current != null && currentReverse != null) {
+            if (currentReverse.getData() != current.getData()) {
                 return false;
             }
-            currentANode = currentANode.next;
-            currentBNode = currentBNode.next;
+            current = current.next;
+            currentReverse = currentReverse.next;
 
         }
+        return current == null && currentReverse == null;
+    }
+
+    public boolean isPalindromeRunnerApproach() {
+        Stack<Integer> stack = new Stack<>();
+        Node fast = head;
+        Node slow = head;
+        while (fast != null && fast.next != null) {
+            stack.push(slow.data);
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+
+        if (fast != null) {
+            slow = slow.next;
+        }
+
+        while (slow != null) {
+            if (slow.data != stack.pop()) {
+                return false;
+            }
+            slow = slow.next;
+        }
+
+
         return true;
     }
 
