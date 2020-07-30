@@ -213,8 +213,15 @@ public class SingleLinkedListTest {
     }
 
     @Test
-    public void detectCyclicInLinkedList() {
-
+    public void hasCycleInList() {
+        SingleLinkedList firstLL = new SingleLinkedList(1);
+        firstLL.add(2);
+        firstLL.add(3);
+        firstLL.add(4);
+        firstLL.add(5);
+        firstLL.getHead().getNext().getNext().setNext(firstLL.getHead().getNext());
+        final boolean output = firstLL.hasCycle(firstLL);
+        System.out.println(output);
     }
 
 //    public ListNode deleteDuplicates(ListNode A) {

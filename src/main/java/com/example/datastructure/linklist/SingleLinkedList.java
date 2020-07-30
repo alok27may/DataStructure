@@ -291,18 +291,13 @@ public Node reverseListByKthNumber(Node node, int position) {
     }
 
     public boolean hasCycle(SingleLinkedList list) {
-        if(head == null) {
-            return false;
-        }
+        Node slow = list.head;
+        Node fast = list.head;
 
-
-        Node firstNode = list.head;
-        Node secondNode = list.head;
-
-        while(firstNode != null && secondNode != null && firstNode.next != null && null != secondNode.next && null != secondNode.next.next) {
-            firstNode = firstNode.next;
-            secondNode = secondNode.next.next;
-            if(firstNode == secondNode) {
+        while(fast != null && null != fast.next) {
+            slow = slow.next;
+            fast = fast.next.next;
+            if(slow == fast) {
                 return true;
             }
         }
