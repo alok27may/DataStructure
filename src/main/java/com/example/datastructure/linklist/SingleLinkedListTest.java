@@ -219,9 +219,12 @@ public class SingleLinkedListTest {
         firstLL.add(3);
         firstLL.add(4);
         firstLL.add(5);
-        firstLL.getHead().getNext().getNext().setNext(firstLL.getHead().getNext());
+        firstLL.getHead().getNext().getNext().getNext().setNext(firstLL.getHead().getNext().getNext());
         final boolean output = firstLL.hasCycle(firstLL);
         System.out.println(output);
+
+        final SingleLinkedList.Node node = firstLL.detectCycle(firstLL);
+        System.out.println(node.getData());
     }
 
 //    public ListNode deleteDuplicates(ListNode A) {
