@@ -186,6 +186,31 @@ public Node reverseListByKthNumber(Node node, int position) {
         return prev;
     }
 
+    public Node reverseByExactKthNumberOrNot(Node node, int k) {
+        return reverseByExactKthNumberOrNot(node, k, size());
+    }
+
+    private Node reverseByExactKthNumberOrNot(final Node node, final int k, final int size) {
+        if (size < k) {
+            return node;
+        }
+        Node curr = node;
+        Node next = null;
+        Node prev = null;
+        int count = 0;
+        while(count < k && curr != null) {
+            next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+            count++;
+        }
+        if (next != null) {
+            node.next = reverseByExactKthNumberOrNot(next, k, size - k);
+        }
+        return prev;
+    }
+
     public boolean isPalindrome() {
         Node currentReverse = reverseAndClone(head);
         Node current = head;

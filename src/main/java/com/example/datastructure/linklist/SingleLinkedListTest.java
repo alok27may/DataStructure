@@ -135,8 +135,22 @@ public class SingleLinkedListTest {
         System.out.println(firstLL);
         SingleLinkedList.Node node2 = firstLL.reverseListByKthNumber(firstLL.getHead(), 3);
         System.out.println(node2);
+    }
 
+    @Test
+    public void reverseListByKthNumberUptoExactKthElement() {
+        SingleLinkedList firstLL = new SingleLinkedList(1);
+        firstLL.add(2);
+        firstLL.add(3);
+        firstLL.add(4);
+        firstLL.add(5);
+        firstLL.add(6);
+        firstLL.add(7);
+        firstLL.add(8);
 
+        System.out.println(firstLL);
+        SingleLinkedList.Node node2 = firstLL.reverseByExactKthNumberOrNot(firstLL.getHead(), 3);
+        System.out.println(node2);
     }
 
     @Test
