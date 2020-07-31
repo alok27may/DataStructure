@@ -37,6 +37,9 @@ public class TreeMain {
         System.out.println();
         System.out.print("Top View Using Recursion : ");
         treeOperation.topViewByRecursion(root);
+        System.out.println();
+
+        System.out.println("No of Leaf node in tree :: " + treeOperation.numberOfLeafNode(root));
 
     }
 

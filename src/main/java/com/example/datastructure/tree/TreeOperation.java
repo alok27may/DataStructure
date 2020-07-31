@@ -85,12 +85,12 @@ public class TreeOperation {
                 }
                 level++;
             } else {
-            if (root.getLeft() != null) {
-                queue.add(root.getLeft());
-            }
-            if (root.getRight() != null) {
-                queue.add(root.getRight());
-            }
+                if (root.getLeft() != null) {
+                    queue.add(root.getLeft());
+                }
+                if (root.getRight() != null) {
+                    queue.add(root.getRight());
+                }
             }
 
         }
@@ -162,4 +162,26 @@ public class TreeOperation {
         }
     }
 
+    public int numberOfLeafNode(Tree root) {
+        int count = 0;
+        Queue<Tree> queue = new LinkedList<>();
+        queue.add(root);
+        while (queue.size() > 0) {
+            root = queue.remove();
+            if (root != null) {
+                if (root.getLeft() == null && root.getRight() == null) {
+                    count++;
+                }
+                if (root.getLeft() != null) {
+                    queue.add(root.getLeft());
+                }
+                if (root.getRight() != null) {
+                    queue.add(root.getRight());
+                }
+            }
+
+        }
+
+        return count;
+    }
 }
