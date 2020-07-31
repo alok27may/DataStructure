@@ -71,6 +71,33 @@ public class TreeOperation {
         return 1 + Math.max(getHeight(root.getLeft()), getHeight(root.getRight()));
     }
 
+    public int getHeightWithoutRecursive(Tree root){
+        int level = 0;
+        Queue<Tree> queue = new LinkedList<>();
+        queue.add(root);
+        queue.add(null);
+
+        while (queue.size() > 0) {
+            root = queue.remove();
+            if (root == null) {
+                if (queue.size() > 0) {
+                    queue.add(null);
+                }
+                level++;
+            } else {
+            if (root.getLeft() != null) {
+                queue.add(root.getLeft());
+            }
+            if (root.getRight() != null) {
+                queue.add(root.getRight());
+            }
+            }
+
+        }
+
+        return level;
+    }
+
     public void levelOrderTraverse(Tree root) {
         Queue<Tree> queue = new LinkedList<>();
         queue.add(root);

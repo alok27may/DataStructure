@@ -29,7 +29,8 @@ public class TreeMain {
         traverseAllOrder();
 
         System.out.println("\nHeight of Tree :: " + treeOperation.heightOfTree(root));
-        System.out.println("\nHeight of Tree :: " + treeOperation.getHeight(root));
+        System.out.println("\nHeight of Tree Second Approach  :: " + treeOperation.getHeight(root));
+        System.out.println("\nHeight of Tree Without Recursive :: " + treeOperation.getHeightWithoutRecursive(root));
 
         System.out.print("Top View Using Stack : ");
         treeOperation.topTreeView(root);
