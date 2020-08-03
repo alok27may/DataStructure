@@ -207,4 +207,24 @@ public class TreeOperation {
         }
     }
 
+    public Tree invertTree(final Tree root) {
+        Stack<Tree>  stack = new Stack<>();
+        stack.push(root);
+
+        while (!stack.isEmpty()) {
+            Tree node = stack.pop();
+            if (node != null) {
+                Tree temp = node.left;
+                node.left = node.right;
+                node.right = temp;
+                if (node.left != null) {
+                    stack.push(node.left);
+                }
+                if (node.right != null) {
+                    stack.push(node.right);
+                }
+            }
+        }
+        return root;
+    }
 }
