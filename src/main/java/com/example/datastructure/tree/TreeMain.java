@@ -2,51 +2,55 @@ package com.example.datastructure.tree;
 
 public class TreeMain {
 
-    private static Tree root = buildTree();
     private static TreeOperation treeOperation = new TreeOperation();
 
     public static void main(String[] args) {
         traverseAllOrder();
         heightOfTree();
         topViewOfTree();
+        invertTree();
 
-        System.out.println("No of Leaf node in tree :: " + treeOperation.numberOfLeafNode(root));
-        System.out.println("Increasing BST :: " + treeOperation.increasingBST(root));
-        System.out.println("Inverted Tree :: " + treeOperation.invertTree(root));
+        System.out.println("No of Leaf node in tree :: " + treeOperation.numberOfLeafNode(buildTree()));
+        System.out.println("Increasing BST :: " + treeOperation.increasingBST(buildTree()));
+    }
+
+    private static void invertTree() {
+        System.out.println("Inverted Tree :: " + treeOperation.invertTree(buildTree()));
+        System.out.println("Inverted Tree Recursive :: " + treeOperation.invertTreeRecursive(buildTree()));
     }
 
     private static void topViewOfTree() {
         System.out.print("Top View Using Stack : ");
-        treeOperation.topTreeView(root);
+        treeOperation.topTreeView(buildTree());
         System.out.println();
         System.out.print("Top View Using Recursion : ");
-        treeOperation.topViewByRecursion(root);
+        treeOperation.topViewByRecursion(buildTree());
         System.out.println();
     }
 
     private static void heightOfTree() {
-        System.out.println("\nHeight of Tree :: " + treeOperation.heightOfTree(root));
-        System.out.println("\nHeight of Tree Second Approach  :: " + treeOperation.getHeight(root));
-        System.out.println("\nHeight of Tree Without Recursive :: " + treeOperation.getHeightWithoutRecursive(root));
+        System.out.println("\nHeight of Tree :: " + treeOperation.heightOfTree(buildTree()));
+        System.out.println("\nHeight of Tree Second Approach  :: " + treeOperation.getHeight(buildTree()));
+        System.out.println("\nHeight of Tree Without Recursive :: " + treeOperation.getHeightWithoutRecursive(buildTree()));
     }
 
     private static void traverseAllOrder() {
         System.out.println("Pre Order Data");
-        treeOperation.preOrder(root);
+        treeOperation.preOrder(buildTree());
         System.out.println("\nIn Order Data");
-        treeOperation.inOrder(root);
+        treeOperation.inOrder(buildTree());
         System.out.println("\nPost Order Data");
-        treeOperation.postOrder(root);
+        treeOperation.postOrder(buildTree());
 
         System.out.println("\nLevle Order Data");
-        treeOperation.levelOrderTraverse(root);
+        treeOperation.levelOrderTraverse(buildTree());
 
         System.out.println("\nPre Order Data Using Non Recursive");
-        treeOperation.preOrderNonRecursive(root);
+        treeOperation.preOrderNonRecursive(buildTree());
     }
 
     private static Tree buildTree() {
-        root = new Tree(1);
+        Tree root = new Tree(1);
 
         final Tree left = new Tree(2);
         left.setLeft(new Tree(4));

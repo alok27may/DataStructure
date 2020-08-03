@@ -227,4 +227,14 @@ public class TreeOperation {
         }
         return root;
     }
+
+    public Tree invertTreeRecursive(final Tree root) {
+        if (root != null) {
+            Tree temp = root.left;
+            root.left = invertTreeRecursive(root.right);
+            root.right = invertTreeRecursive(temp);
+        }
+        return root;
+    }
+
 }
