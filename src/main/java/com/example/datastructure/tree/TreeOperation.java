@@ -1,5 +1,6 @@
 package com.example.datastructure.tree;
 
+import javax.swing.tree.TreeNode;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -237,4 +238,20 @@ public class TreeOperation {
         return root;
     }
 
+    public boolean leafSimilar(Tree root1, Tree root2) {
+        List<Integer> list1 = new ArrayList<>();
+        List<Integer> list2 = new ArrayList<>();
+        preorder(root1, list1);
+        preorder(root2, list2);
+        return list1.equals(list2);
+    }
+
+    private void preorder(Tree root, List<Integer> data) {
+        if(root == null) return;
+        preorder(root.left, data);
+        preorder(root.right, data);
+        if(root.left == null && root.right == null) {
+            data.add(root.data);
+        }
+    }
 }

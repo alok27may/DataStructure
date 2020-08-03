@@ -12,6 +12,8 @@ public class TreeMain {
 
         System.out.println("No of Leaf node in tree :: " + treeOperation.numberOfLeafNode(buildTree()));
         System.out.println("Increasing BST :: " + treeOperation.increasingBST(buildTree()));
+
+        System.out.println("Increasing BST :: " + treeOperation.leafSimilar(buildTree(), buildTree()));
     }
 
     private static void invertTree() {
