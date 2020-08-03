@@ -26,6 +26,7 @@ public class TreeMain {
     }
 
     public static void main(String[] args) {
+
         traverseAllOrder();
 
         System.out.println("\nHeight of Tree :: " + treeOperation.heightOfTree(root));
@@ -41,6 +42,8 @@ public class TreeMain {
 
         System.out.println("No of Leaf node in tree :: " + treeOperation.numberOfLeafNode(root));
 
+        Tree increasingBST = treeOperation.increasingBST(root);
+        System.out.println("Increasing BST :: " + increasingBST);
     }
 
     private static void traverseAllOrder() {

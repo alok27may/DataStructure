@@ -1,6 +1,8 @@
 package com.example.datastructure.tree;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
 import java.util.Stack;
 
@@ -184,4 +186,25 @@ public class TreeOperation {
 
         return count;
     }
+
+    public Tree increasingBST(final Tree root1) {
+        List<Integer> list = new ArrayList<>();
+        increasingInorder(root1, list);
+        Tree output = new Tree(0);
+        Tree curr = output;
+        for (final Integer data : list) {
+            curr.right = new Tree(data);
+            curr = curr.right;
+        }
+        return output.right;
+    }
+
+    private void increasingInorder(Tree tree, List<Integer> list) {
+        if(tree != null) {
+            increasingInorder(tree.left, list);
+            list.add(tree.data);
+            increasingInorder(tree.right, list);
+        }
+    }
+
 }
