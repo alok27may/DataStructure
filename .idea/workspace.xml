@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1c262209-29f2-4728-bb09-c56f3eaa4c56" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/datastructure/algo/BoyerMooreMajorityVotingAlgo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designpattern/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designpattern/src/test/java/AmadocTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../react/my-first-react-app/my-app/my-app.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../react/my-first-react-app/my-app/src/AppRoute.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../react/my-first-react-app/my-app/src/LoginPage.js" afterDir="false" />
@@ -10,18 +16,19 @@
       <change afterPath="$PROJECT_DIR$/../react/my-first-react-app/my-app/src/PrimarySearchAppBar.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../react/my-first-react-app/my-app/src/Sidebar.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../react/my-first-react-app/my-app/src/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/TreeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/TreeMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/TreeOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/datastructure/tree/TreeOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designpattern/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../designpattern/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designpattern/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../designpattern/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designpattern/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../designpattern/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designpattern/src/test/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../designpattern/src/test/java/MainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../react/my-first-react-app/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../react/my-first-react-app/my-app/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../react/my-first-react-app/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../react/my-first-react-app/my-app/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../react/my-first-react-app/my-app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../react/my-first-react-app/my-app/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../react/my-first-react-app/my-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react/my-first-react-app/my-app/src/index.js" afterDir="false" />
     </list>
     <list id="1c5200c2-36a0-4469-af5f-b3870fb0a1c0" name="ignore" comment="">
-      <change afterPath="$PROJECT_DIR$/../designpattern/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../designpattern/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../designpattern/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../designpattern/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../designpattern/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,20 +39,6 @@
     <option name="groupingKeys">
       <option value="module" />
     </option>
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -61,6 +54,58 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/.idea/workspace.xml">
+      <ranges>
+        <range start1="2" end1="2" start2="2" end2="5" changelist="1c5200c2-36a0-4469-af5f-b3870fb0a1c0" />
+        <range start1="4" end1="4" start2="7" end2="10" changelist="1c262209-29f2-4728-bb09-c56f3eaa4c56" />
+        <range start1="12" end1="15" start2="18" end2="23" changelist="1c262209-29f2-4728-bb09-c56f3eaa4c56" />
+        <range start1="21" end1="24" start2="29" end2="30" changelist="1c262209-29f2-4728-bb09-c56f3eaa4c56" />
+        <range start1="35" end1="49" start2="41" end2="41" changelist="1c5200c2-36a0-4469-af5f-b3870fb0a1c0" />
+        <range start1="63" end1="63" start2="55" end2="62" changelist="1c5200c2-36a0-4469-af5f-b3870fb0a1c0" />
+        <range start1="88" end1="88" start2="87" end2="88" changelist="1c5200c2-36a0-4469-af5f-b3870fb0a1c0" />
+        <range start1="121" end1="122" start2="121" end2="122" changelist="1c5200c2-36a0-4469-af5f-b3870fb0a1c0" />
+        <range start1="128" end1="131" start2="128" end2="131" changelist="1c5200c2-36a0-4469-af5f-b3870fb0a1c0" />
+        <range start1="134" end1="135" start2="134" end2="135" changelist="1c5200c2-36a0-4469-af5f-b3870fb0a1c0" />
+        <range start1="148" end1="150" start2="148" end2="161" changelist="1c5200c2-36a0-4469-af5f-b3870fb0a1c0" />
+        <range start1="152" end1="153" start2="163" end2="164" changelist="1c5200c2-36a0-4469-af5f-b3870fb0a1c0" />
+        <range start1="156" end1="158" start2="167" end2="169" changelist="1c5200c2-36a0-4469-af5f-b3870fb0a1c0" />
+        <range start1="164" end1="166" start2="175" end2="177" changelist="1c5200c2-36a0-4469-af5f-b3870fb0a1c0" />
+        <range start1="168" end1="169" start2="179" end2="180" changelist="1c5200c2-36a0-4469-af5f-b3870fb0a1c0" />
+        <range start1="172" end1="175" start2="183" end2="186" changelist="1c5200c2-36a0-4469-af5f-b3870fb0a1c0" />
+        <range start1="181" end1="183" start2="192" end2="194" changelist="1c5200c2-36a0-4469-af5f-b3870fb0a1c0" />
+        <range start1="185" end1="186" start2="196" end2="197" changelist="1c5200c2-36a0-4469-af5f-b3870fb0a1c0" />
+        <range start1="189" end1="193" start2="200" end2="203" changelist="1c5200c2-36a0-4469-af5f-b3870fb0a1c0" />
+        <range start1="198" end1="200" start2="208" end2="210" changelist="1c5200c2-36a0-4469-af5f-b3870fb0a1c0" />
+        <range start1="202" end1="203" start2="212" end2="213" changelist="1c5200c2-36a0-4469-af5f-b3870fb0a1c0" />
+        <range start1="206" end1="210" start2="216" end2="219" changelist="1c5200c2-36a0-4469-af5f-b3870fb0a1c0" />
+        <range start1="270" end1="275" start2="279" end2="284" changelist="1c5200c2-36a0-4469-af5f-b3870fb0a1c0" />
+        <range start1="278" end1="278" start2="287" end2="288" changelist="1c5200c2-36a0-4469-af5f-b3870fb0a1c0" />
+        <range start1="324" end1="325" start2="334" end2="369" changelist="1c262209-29f2-4728-bb09-c56f3eaa4c56" />
+        <range start1="329" end1="330" start2="373" end2="374" changelist="1c5200c2-36a0-4469-af5f-b3870fb0a1c0" />
+        <range start1="344" end1="349" start2="388" end2="389" changelist="1c5200c2-36a0-4469-af5f-b3870fb0a1c0" />
+        <range start1="351" end1="353" start2="391" end2="397" changelist="1c262209-29f2-4728-bb09-c56f3eaa4c56" />
+        <range start1="355" end1="357" start2="399" end2="401" changelist="1c5200c2-36a0-4469-af5f-b3870fb0a1c0" />
+        <range start1="359" end1="361" start2="403" end2="405" changelist="1c5200c2-36a0-4469-af5f-b3870fb0a1c0" />
+        <range start1="363" end1="365" start2="407" end2="409" changelist="1c5200c2-36a0-4469-af5f-b3870fb0a1c0" />
+        <range start1="367" end1="369" start2="411" end2="413" changelist="1c5200c2-36a0-4469-af5f-b3870fb0a1c0" />
+        <range start1="371" end1="373" start2="415" end2="417" changelist="1c5200c2-36a0-4469-af5f-b3870fb0a1c0" />
+        <range start1="375" end1="377" start2="419" end2="421" changelist="1c5200c2-36a0-4469-af5f-b3870fb0a1c0" />
+        <range start1="379" end1="381" start2="423" end2="425" changelist="1c5200c2-36a0-4469-af5f-b3870fb0a1c0" />
+        <range start1="383" end1="385" start2="427" end2="433" changelist="1c262209-29f2-4728-bb09-c56f3eaa4c56" />
+        <range start1="387" end1="432" start2="435" end2="436" changelist="1c5200c2-36a0-4469-af5f-b3870fb0a1c0" />
+        <range start1="541" end1="541" start2="545" end2="555" changelist="1c262209-29f2-4728-bb09-c56f3eaa4c56" />
+        <range start1="543" end1="543" start2="557" end2="562" changelist="1c5200c2-36a0-4469-af5f-b3870fb0a1c0" />
+      </ranges>
+    </file>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
@@ -86,6 +131,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
@@ -119,20 +165,20 @@
       <recent name="$PROJECT_DIR$/../designpattern/src/main/java/com/learning/ds/creational/abstractfactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TreeMain">
+  <component name="RunManager" selected="Application.BoyerMooreMajorityVotingAlgo">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.datastructure.tree.TreeMain" />
-      <module name="DataStructure" />
+    <configuration name="BoyerMooreMajorityVotingAlgo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.datastructure.algo.BoyerMooreMajorityVotingAlgo" />
+      <module name="data-structure" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.datastructure.tree.*" />
+          <option name="PATTERN" value="com.example.datastructure.algo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,68 +192,77 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DataStructure" />
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HiddenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BankingSystem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.datastructure.linklist.*" />
+          <option name="PATTERN" value="banking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.datastructure.linklist" />
-      <option name="MAIN_CLASS_NAME" value="com.example.datastructure.linklist.SingleLinkedListTest" />
+      <option name="PACKAGE_NAME" value="banking" />
+      <option name="MAIN_CLASS_NAME" value="banking.HiddenTest" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleLinkedListTest.findLengthOfCycle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DataStructure" />
+    <configuration name="HiddenTest.invalidAccountNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BankingSystem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.datastructure.linklist.*" />
+          <option name="PATTERN" value="banking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.datastructure.linklist" />
-      <option name="MAIN_CLASS_NAME" value="com.example.datastructure.linklist.SingleLinkedListTest" />
-      <option name="METHOD_NAME" value="findLengthOfCycle" />
+      <option name="PACKAGE_NAME" value="banking" />
+      <option name="MAIN_CLASS_NAME" value="banking.HiddenTest" />
+      <option name="METHOD_NAME" value="invalidAccountNumberTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleLinkedListTest.findMiddleNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DataStructure" />
+    <configuration name="SampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BankingSystem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.datastructure.linklist.*" />
+          <option name="PATTERN" value="banking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.datastructure.linklist" />
-      <option name="MAIN_CLASS_NAME" value="com.example.datastructure.linklist.SingleLinkedListTest" />
-      <option name="METHOD_NAME" value="findMiddleNode" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="banking" />
+      <option name="MAIN_CLASS_NAME" value="banking.SampleTest" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleLinkedListTest.hasCycleInList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DataStructure" />
+    <configuration name="UnitTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BankingSystem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.datastructure.linklist.*" />
+          <option name="PATTERN" value="banking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.datastructure.linklist" />
-      <option name="MAIN_CLASS_NAME" value="com.example.datastructure.linklist.SingleLinkedListTest" />
-      <option name="METHOD_NAME" value="hasCycleInList" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="banking" />
+      <option name="MAIN_CLASS_NAME" value="banking.UnitTestSuite" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -268,14 +323,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TreeMain" />
-        <item itemvalue="JUnit.SingleLinkedListTest.findLengthOfCycle" />
-        <item itemvalue="JUnit.SingleLinkedListTest" />
-        <item itemvalue="JUnit.SingleLinkedListTest.findMiddleNode" />
-        <item itemvalue="JUnit.SingleLinkedListTest.hasCycleInList" />
+        <item itemvalue="Application.BoyerMooreMajorityVotingAlgo" />
+        <item itemvalue="JUnit.UnitTestSuite" />
+        <item itemvalue="JUnit.SampleTest" />
+        <item itemvalue="JUnit.HiddenTest" />
+        <item itemvalue="JUnit.HiddenTest.invalidAccountNumberTest" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -322,12 +378,46 @@
       <workItem from="1595864430777" duration="4752000" />
       <workItem from="1595953153550" duration="247000" />
       <workItem from="1596116915822" duration="6820000" />
-      <workItem from="1596197253130" duration="9798000" />
+      <workItem from="1596197253130" duration="10248000" />
+      <workItem from="1596522669310" duration="5937000" />
+      <workItem from="1597077131073" duration="6889000" />
+      <workItem from="1597136255140" duration="586000" />
+      <workItem from="1598787341107" duration="608000" />
+      <workItem from="1598848803220" duration="521000" />
+      <workItem from="1605776822680" duration="1369000" />
+      <workItem from="1608621219591" duration="3306000" />
+      <workItem from="1609139452345" duration="3548000" />
+      <workItem from="1609741099784" duration="1490000" />
+      <workItem from="1610699119668" duration="1584000" />
+      <workItem from="1610706754080" duration="104000" />
+      <workItem from="1611554860137" duration="4538000" />
+      <workItem from="1612438213858" duration="3136000" />
+      <workItem from="1612507129902" duration="328000" />
+      <workItem from="1620458356930" duration="2187000" />
+      <workItem from="1620624687607" duration="2001000" />
+      <workItem from="1623671255532" duration="819000" />
+      <workItem from="1624602457932" duration="2399000" />
+      <workItem from="1627040803767" duration="1674000" />
+      <workItem from="1627368662229" duration="1445000" />
+      <workItem from="1630571297997" duration="1294000" />
+      <workItem from="1632226733135" duration="910000" />
+      <workItem from="1637918445984" duration="1867000" />
+      <workItem from="1638161651405" duration="418000" />
+      <workItem from="1638162111233" duration="8000" />
+      <workItem from="1639560274687" duration="314000" />
+      <workItem from="1641894323913" duration="5776000" />
+      <workItem from="1642657461096" duration="1509000" />
+      <workItem from="1642693930878" duration="1245000" />
+      <workItem from="1642828885684" duration="103000" />
+      <workItem from="1642829083314" duration="599000" />
+      <workItem from="1642999272268" duration="3825000" />
+      <workItem from="1644210677722" duration="2106000" />
+      <workItem from="1644658604863" duration="5201000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -342,94 +432,54 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="653" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1595500804076">
+    <state x="653" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1644659597410">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
-    <state x="653" y="226" key="#com.intellij.ide.util.MemberChooser/0.23.1680.960@0.23.1680.960" timestamp="1595500804076" />
-    <state x="559" y="199" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1594892857467">
+    <state x="653" y="203" key="#com.intellij.ide.util.MemberChooser/0.23.1680.960@0.23.1680.960" timestamp="1644659597410" />
+    <state x="100" y="123" width="1480" height="745" key="DiffContextDialog" timestamp="1644998151266">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
-    <state x="559" y="199" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.1680.960@0.23.1680.960" timestamp="1594892857467" />
-    <state x="287" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1596125071654">
+    <state x="100" y="123" width="1480" height="745" key="DiffContextDialog/0.23.1680.960@0.23.1680.960" timestamp="1644998151266" />
+    <state width="1638" height="327" key="GridCell.Tab.0.bottom" timestamp="1642663324795">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
-    <state x="287" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1680.960@0.23.1680.960" timestamp="1596125071654" />
-    <state x="591" y="322" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1593415345502">
+    <state width="1638" height="327" key="GridCell.Tab.0.bottom/0.23.1680.960@0.23.1680.960" timestamp="1642663324795" />
+    <state width="1638" height="327" key="GridCell.Tab.0.center" timestamp="1642663324794">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
-    <state x="591" y="322" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.23.1680.960@0.23.1680.960" timestamp="1593415345502" />
-    <state x="601" y="403" key="#xdebugger.evaluate" timestamp="1595501550921">
+    <state width="1638" height="327" key="GridCell.Tab.0.center/0.23.1680.960@0.23.1680.960" timestamp="1642663324794" />
+    <state width="1638" height="327" key="GridCell.Tab.0.left" timestamp="1642663324793">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
-    <state x="601" y="403" key="#xdebugger.evaluate/0.23.1680.960@0.23.1680.960" timestamp="1595501550921" />
-    <state x="100" y="123" width="1480" height="760" key="DiffContextDialog" timestamp="1596205474726">
+    <state width="1638" height="327" key="GridCell.Tab.0.left/0.23.1680.960@0.23.1680.960" timestamp="1642663324793" />
+    <state width="1638" height="327" key="GridCell.Tab.0.right" timestamp="1642663324794">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
-    <state x="100" y="123" width="1480" height="760" key="DiffContextDialog/0.23.1680.960@0.23.1680.960" timestamp="1596205474726" />
-    <state width="1638" height="239" key="GridCell.Tab.0.bottom" timestamp="1596472648386">
+    <state width="1638" height="327" key="GridCell.Tab.0.right/0.23.1680.960@0.23.1680.960" timestamp="1642663324794" />
+    <state width="1638" height="250" key="GridCell.Tab.1.bottom" timestamp="1642072152047">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
-    <state width="1638" height="239" key="GridCell.Tab.0.bottom/0.23.1680.960@0.23.1680.960" timestamp="1596472648386" />
-    <state width="1638" height="239" key="GridCell.Tab.0.center" timestamp="1596472648385">
+    <state width="1638" height="250" key="GridCell.Tab.1.bottom/0.23.1680.960@0.23.1680.960" timestamp="1642072152047" />
+    <state width="1638" height="250" key="GridCell.Tab.1.center" timestamp="1642072152046">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
-    <state width="1638" height="239" key="GridCell.Tab.0.center/0.23.1680.960@0.23.1680.960" timestamp="1596472648385" />
-    <state width="1638" height="239" key="GridCell.Tab.0.left" timestamp="1596472648385">
+    <state width="1638" height="250" key="GridCell.Tab.1.center/0.23.1680.960@0.23.1680.960" timestamp="1642072152046" />
+    <state width="1638" height="250" key="GridCell.Tab.1.left" timestamp="1642072152046">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
-    <state width="1638" height="239" key="GridCell.Tab.0.left/0.23.1680.960@0.23.1680.960" timestamp="1596472648385" />
-    <state width="1638" height="239" key="GridCell.Tab.0.right" timestamp="1596472648386">
+    <state width="1638" height="250" key="GridCell.Tab.1.left/0.23.1680.960@0.23.1680.960" timestamp="1642072152046" />
+    <state width="1638" height="250" key="GridCell.Tab.1.right" timestamp="1642072152047">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
-    <state width="1638" height="239" key="GridCell.Tab.0.right/0.23.1680.960@0.23.1680.960" timestamp="1596472648386" />
-    <state width="1638" height="359" key="GridCell.Tab.1.bottom" timestamp="1596470129216">
+    <state width="1638" height="250" key="GridCell.Tab.1.right/0.23.1680.960@0.23.1680.960" timestamp="1642072152047" />
+    <state x="548" y="205" key="RollbackChangesDialog" timestamp="1644998016525">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
-    <state width="1638" height="359" key="GridCell.Tab.1.bottom/0.23.1680.960@0.23.1680.960" timestamp="1596470129216" />
-    <state width="1638" height="359" key="GridCell.Tab.1.center" timestamp="1596470129215">
+    <state x="548" y="205" key="RollbackChangesDialog/0.23.1680.960@0.23.1680.960" timestamp="1644998016525" />
+    <state width="500" height="467" key="SwitcherDM" timestamp="1641991113026">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
-    <state width="1638" height="359" key="GridCell.Tab.1.center/0.23.1680.960@0.23.1680.960" timestamp="1596470129215" />
-    <state width="1638" height="359" key="GridCell.Tab.1.left" timestamp="1596470129214">
-      <screen x="0" y="23" width="1680" height="960" />
-    </state>
-    <state width="1638" height="359" key="GridCell.Tab.1.left/0.23.1680.960@0.23.1680.960" timestamp="1596470129214" />
-    <state width="1638" height="359" key="GridCell.Tab.1.right" timestamp="1596470129215">
-      <screen x="0" y="23" width="1680" height="960" />
-    </state>
-    <state width="1638" height="359" key="GridCell.Tab.1.right/0.23.1680.960@0.23.1680.960" timestamp="1596470129215" />
-    <state x="378" y="165" key="Maven.ArtifactSearchDialog" timestamp="1593415219656">
-      <screen x="0" y="23" width="1680" height="960" />
-    </state>
-    <state x="378" y="165" key="Maven.ArtifactSearchDialog/0.23.1680.960@0.23.1680.960" timestamp="1593415219656" />
-    <state x="455" y="209" width="852" height="587" key="NewModule_or_Project.wizard" timestamp="1594912964366">
-      <screen x="0" y="23" width="1680" height="960" />
-    </state>
-    <state x="455" y="209" width="852" height="587" key="NewModule_or_Project.wizard/0.23.1680.960@0.23.1680.960" timestamp="1594912964366" />
-    <state x="643" y="428" key="ReplaceDuplicatesPrompt" timestamp="1596124912759">
-      <screen x="0" y="23" width="1680" height="960" />
-    </state>
-    <state x="643" y="428" key="ReplaceDuplicatesPrompt/0.23.1680.960@0.23.1680.960" timestamp="1596124912759" />
-    <state x="341" y="142" key="SettingsEditor" timestamp="1595248783890">
-      <screen x="0" y="23" width="1680" height="960" />
-    </state>
-    <state x="341" y="142" key="SettingsEditor/0.23.1680.960@0.23.1680.960" timestamp="1595248783890" />
-    <state x="578" y="248" width="535" height="510" key="extract.method.dialog" timestamp="1596471421235">
-      <screen x="0" y="23" width="1680" height="960" />
-    </state>
-    <state x="578" y="248" width="535" height="510" key="extract.method.dialog/0.23.1680.960@0.23.1680.960" timestamp="1596471421235" />
-    <state x="208" y="125" key="new project wizard" timestamp="1594892554907">
-      <screen x="0" y="23" width="1680" height="960" />
-    </state>
-    <state x="208" y="125" key="new project wizard/0.23.1680.960@0.23.1680.960" timestamp="1594892554907" />
-    <state x="545" y="278" key="refactoring.ChangeSignatureDialog" timestamp="1596469954306">
-      <screen x="0" y="23" width="1680" height="960" />
-    </state>
-    <state x="545" y="278" key="refactoring.ChangeSignatureDialog/0.23.1680.960@0.23.1680.960" timestamp="1596469954306" />
-    <state x="505" y="234" width="670" height="676" key="search.everywhere.popup" timestamp="1596470720568">
-      <screen x="0" y="23" width="1680" height="960" />
-    </state>
-    <state x="505" y="234" width="670" height="676" key="search.everywhere.popup/0.23.1680.960@0.23.1680.960" timestamp="1596470720568" />
+    <state width="500" height="467" key="SwitcherDM/0.23.1680.960@0.23.1680.960" timestamp="1641991113026" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -539,7 +589,22 @@
           <line>199</line>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../BankingSystem/29533143-0e29-4223-b0a4-8ff48c7b1a2a/BankingSystem/src/test/java/banking/HiddenTest.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../BankingSystem/29533143-0e29-4223-b0a4-8ff48c7b1a2a/BankingSystem/src/test/java/banking/HiddenTest.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/data_structure$TrieMain.ic" NAME="TrieMain Coverage Results" MODIFIED="1608621975632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.datastructure.trie.*</FILTER>
+    </SUITE>
   </component>
 </project>
